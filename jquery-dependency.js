@@ -40,7 +40,7 @@
     };
 
     $.fn.dependsOn.check = function (parent, child, opts) {
-        if (!parent.attr('checked') || !$(opts.origparent).attr('checked')) {
+        if (!parent.is(':checked') || !$(opts.origparent).is(':checked')) {
             child.attr('checked', false).change(); 
             if (jQuery.ui) parent.button('refresh'); 
         }
