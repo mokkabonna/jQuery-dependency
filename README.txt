@@ -3,7 +3,8 @@ A jQuery plugin for creating dependencies between checkboxes/radiobuttons
 Usage:
 
 
-...$('.myinputchildren').dependsOn('#parent');
+...javascript
+$('.myinputchildren').dependsOn('#parent');
 
 <input type="checkbox" id="parent" />
 <input type="checkbox" class="myinputchildren" />
