@@ -35,6 +35,16 @@
 
   module('jQuery.dependsOn');
 
+  test('should select parent element if selected if parent is checkbox', 0, function() {
+
+  });
+  test('should select parent element if selected if parent is radiobutton', 0, function() {
+
+  });
+  test('should deselect previous children if other parent in group (radio) is selected', 0, function() {
+
+  });
+
   // module(':awesome selector', {
   //   // This will run before each test in this module.
   //   setup: function() {
