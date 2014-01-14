@@ -1,0 +1,28 @@
+{
+  "name": "jquery-dependency",
+  "title": "jquery-dependency",
+  "description": " jQuery plugin for creating dependencies between checkboxes/radiobuttons",
+  "version": "1.0",
+  "homepage": "https://github.com/mokkabonna/jQuery-dependency.git",
+  "author": {
+    "name": "Martin Hansen",
+    "url": "https://github.com/mokkabonna"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mokkabonna/jQuery-dependency.git"
+  },
+  "bugs": "https://github.com/mokkabonna/jQuery-dependency/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~>=1.9"
+  },
+  "keywords": [
+    "jquery-plugin"
+  ]
+}

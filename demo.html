@@ -1,0 +1,26 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery-dependency.js"></script>
+<script type="text/javascript">
+	$(function() {
+		'use strict';
+		$('#fruitlist>li>input').dependsOn('#fruits');
+		$('#citruslist input').dependsOn('#citrus');
+	});
+</script>
+
+
+<ul>
+	<li><input type="radio" name="products" value="books">books</li>
+	<li><input type="radio" name="products" id="fruits" value="fruits">fruits
+		<ul id="fruitlist">
+			<li><input type="checkbox">apples</li>
+			<li><input type="checkbox" id="citrus">citrus fruits
+				<ul id="citruslist">
+					<li><input type="radio" name="citrus">lemons</li>
+					<li><input type="radio" name="citrus">oranges</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><input type="radio" name="products" value="pens">pens</li>
+</ul>
